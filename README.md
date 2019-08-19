@@ -3,8 +3,8 @@
 ## Competencia de desarrollar 
 Implementa un compilador para un lenguaje específico considerando las etapas del mismo. [1]
 
-# Caracterizción de la asignatura
-En ésta asignatura se debe desarrollar el análisis sistemático, la generación de código,
+# Caracterización de la asignatura
+En ésta asignatura se debe desarrollar el análisis semántico, la generación de código,
 la optimización y la generación del código objeto para obtener el funcionamiento de un compilador
 
 
