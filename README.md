@@ -56,7 +56,7 @@ Define, disena y programa las fases del analizador léxico y sintáctico de un t
  |                             | https://www.antlr.org/       |
  | [2] Jaime Pavlich-Mariscal. | antlr4-tutorial              |
  |                             |https://github.com/jpavlich/antlr4-tutorial |
- | --------------------------- | ---------------------------- |
+ |                             |                              |
 
 
 
