@@ -1,4 +1,4 @@
-# Lenguajes y Autómatas II SCD-1016. SATCA 2-3-5. Ingeniería en Sistemas Computacionales.
+# Lenguajes y Autómatas II. Ingeniería en Sistemas Computacionales.
 
 # Caracterización de la asignatura
 En ésta asignatura se debe desarrollar el análisis semántico, la generación de código, la optimización y la generación del código objeto para obtener el funcionamiento de un compilador. También se busca proveer al estudinate de herramientas, conocimientos y habilidades necesarias para desarrollar un compilador con base a conocimientos previos de la asignatura Lenguajes y Autómatas I. La aportación de ésta asignatura es relevante en el ámbito del desarrollo de software de sistemas.  
@@ -30,6 +30,13 @@ Implementa un compilador para un lenguaje específico considerando las etapas de
 Define, disena y programa las fases del analizador léxico y sintáctico de un traductor o compilador para preámbulo de la construcción de un compilador.
 # Temario
 Análisis semántico. 
+| TITULO1| TITULO2|
+
+| ----- | ---- |
+
+| CONTENIDO COLUMNA 1 | CONTENIDO COLUMNA 2 |
+
+
 
 
 
@@ -51,4 +58,4 @@ Secretaría Académica, de Investigación e Innovación.
 Dirección de Docencia e Innovación Educativa. 
 Lenguajes y autómatas II. SCD-1016 SATCA 2-3-5
 Ingeniería en Sistemas Computacionales.
-
+SATCA Sistema de Asignación y Trnasferencia de Créditos Académicos.
