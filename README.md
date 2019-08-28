@@ -49,18 +49,14 @@ Define, disena y programa las fases del analizador léxico y sintáctico de un t
 
 # Referencias.
 
-| Primer Encabezado     | Segundo Encabezado    |
-| --------------------- | --------------------- |
-| Contenido de la celda | Contenido de la celda |
-| Contenido de la celda | Contenido de la celda |
 
- |                         |                              | 
- |------------------------ | ---------------------------- |
- |        Terence Parr.    | ANother Tool for Language Recognition |
- |                         | https://www.antlr.org/       |
- | Jaime Pavlich-Mariscal. | antlr4-tutorial              |
- |                         |https://github.com/jpavlich/antlr4-tutorial |
- | ----------------------- | ---------------------------- |
+ |                             |                              | 
+ |---------------------------- | ---------------------------- |
+ | [1] Terence Parr.           | ANother Tool for Language Recognition |
+ |                             | https://www.antlr.org/       |
+ | [2] Jaime Pavlich-Mariscal. | antlr4-tutorial              |
+ |                             |https://github.com/jpavlich/antlr4-tutorial |
+ | --------------------------- | ---------------------------- |
 
 
 
