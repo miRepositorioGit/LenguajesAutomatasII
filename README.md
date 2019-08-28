@@ -35,6 +35,13 @@ Define, disena y programa las fases del analizador léxico y sintáctico de un t
 
 # Temario
 
+| Temas                 | Subtemas               |
+| --------------------- | -----------------------|
+| Análisis semántico.   | Árboles de expresiones.|
+|                       | Acciones semánticas de un analizdor sintáctico. |
+
+
+
 | Análisis semántico. | Árboles de expresiones.                         |
 |                     | Acciones semánticas de un analizdor sintáctico. |
 |                     | Comprobaciones de tipos en expresiones.         |
