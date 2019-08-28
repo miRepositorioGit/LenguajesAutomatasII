@@ -1,0 +1,66 @@
+﻿Secuencia de etapas para generar archivos de soporte y gráfos de una 
+gramatica regular, empleando  ANTLR.
+
+ (ANother Tool for Languaje Recognition) en un sistema  operativo Windows.
+
+	https://www.antlr.org/ 
+
+	Descripción.  
+	
+	ANTLR es una herramienta que permite el análisis, la lectura, 
+procesamiento o la traducción de archivos con texto estructurado 
+o binario. ANTLR genera analizadores que facilitan la construcción 
+de un árbol de sintaxis.
+
+	Recursos.
+
+Instalada y configurada la herramienta ANTLR.
+
+Es necesario que la carpeta de trabajo cuente con:
+
+	- un archivo de gramática regular, fileGrammar.g4
+	- un archivo de datos, sample.txt
+	
+Desde línea de comandos del s.o.(>)
+Seguir las siguientes etapas [2]: 
+
+  Etapa 			Descripción
+ 
+  11=UNO=11		    parser generator 		
+ 
+ >antlr fileGrammar.g4						// short
+ >java org.antlr.v4.Tool fileGrammar.g4     // canonical
+ 
+  22=DOS=22		    compilación de archivos java
+  
+ >javac fileGrammar*.java
+ 
+ 33=TRES=33 		run grammar to obtain stream tokens at id: r
+ 
+ >grun fileGrammar start samplefile.txt -tree   // -tokens | -tree | -gui | -ps file.ps | -encodingname
+(start hello parrt)  	//  
+ 
+ 
+ >grun fileGrammar start samplefile.txt -gui 
+ ctrl z					// secuencia EOF
+
+
+ CUATRO		run grammar to obtain parse tree ar id: r
+ >grun fileGrammar r -gui
+ hello part
+ ctrl z
+ 
+ 
+ r
+ |-hello
+ |-parrt
+ 
+      r	
+	/   \
+hello   parrt	
+
+
+[2] Abhijith Neil Abraham. Getting Started with ANTLR v4. 
+Installation. Windows.
+https://github.com/antlr/antlr4/blob/master/doc/getting-started.md
+
