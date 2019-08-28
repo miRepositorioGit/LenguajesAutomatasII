@@ -54,8 +54,9 @@ Define, disena y programa las fases del analizador léxico y sintáctico de un t
 | Contenido de la celda | Contenido de la celda |
 | Contenido de la celda | Contenido de la celda |
 
- |Terence Parr. |ANother Tool for Language Recognition    | 
+ |                         |                              | 
  |------------------------ | ---------------------------- |
+ |        Terence Parr.    | ANother Tool for Language Recognition |
  |                         | https://www.antlr.org/       |
  | ----------------------- | ---------------------------- |
  | Jaime Pavlich-Mariscal. | antlr4-tutorial              | 
