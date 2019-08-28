@@ -45,7 +45,7 @@ Seguir las siguientes etapas [2]:
  ctrl z					// secuencia EOF
 
 
- CUATRO		run grammar to obtain parse tree ar id: r
+44=CUATRO=44		run grammar to obtain parse tree ar id: r
  >grun fileGrammar r -gui
  hello part
  ctrl z
