@@ -32,7 +32,15 @@ Implementa un compilador para un lenguaje específico considerando las etapas de
 # Competencias previas
 
 Define, disena y programa las fases del analizador léxico y sintáctico de un traductor o compilador para preámbulo de la construcción de un compilador.
+
 # Temario
+
+| Primer Encabezado     | Segundo Encabezado    |
+| --------------------- | --------------------- |
+| Contenido de la celda | Contenido de la celda |
+| Contenido de la celda | Contenido de la celda |
+
+
 | Análisis semántico.| Árboles de expresiones.
                      | Acciones semánticas de un analizdor sintáctico.
                      | Comprobaciones de tipos en expresiones.
