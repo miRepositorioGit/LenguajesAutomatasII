@@ -1,4 +1,5 @@
-# Lenguajes y Autómatas II. Ingeniería en Sistemas Computacionales.
+# Lenguajes y Autómatas II. 
+# Ingeniería en Sistemas Computacionales.
 
 # Caracterización de la asignatura
 En ésta asignatura se debe desarrollar el análisis semántico, la generación de código, la optimización y la generación del código objeto para obtener el funcionamiento de un compilador. También se busca proveer al estudinate de herramientas, conocimientos y habilidades necesarias para desarrollar un compilador con base a conocimientos previos de la asignatura Lenguajes y Autómatas I. La aportación de ésta asignatura es relevante en el ámbito del desarrollo de software de sistemas.  
