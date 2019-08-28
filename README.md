@@ -16,6 +16,7 @@ La aportación de la asignatura al perfil del egresado será específicamente la
 * Diseña e implementa interfaces para la automatización de sistemas de hardware y desarrollo del software asociado.
 
 # Intención didáctica
+
 La asignatura consta de cuatro bloques estructurados y definidos que abarcan la última etapa de la fase de análisis y síntesis. Al término del semestre se debe obtener un compilador o traductor completo, funcionando de acuerdo a ciertas restricciones y requisitos.
 
 La primera unidad se centra totalmente en el analizador semántico, por lo que el analizador sintáctico debió ser concluido en la asignatura de lenguajes y autómatas I, ya que servirá de base en esta unidad. 
@@ -24,10 +25,12 @@ La tercera unidad se centra en la optimización del código. Es importante hacer
 En el último bloque se aborda el tema de la generación de código objeto. Como paso final, es importante que el código resultante sea eficiente y pueda correr directamente sobre la computadora en
 lenguaje ensamblador o basándose en microinstrucciones.
 
-## Competencia de desarrollar 
+# Competencia de desarrollar 
+
 Implementa un compilador para un lenguaje específico considerando las etapas del mismo. [1]
 
 # Competencias previas
+
 Define, disena y programa las fases del analizador léxico y sintáctico de un traductor o compilador para preámbulo de la construcción de un compilador.
 # Temario
 | Análisis semántico.| Árboles de expresiones.
