@@ -47,8 +47,14 @@ Define, disena y programa las fases del analizador léxico y sintáctico de un t
 |                       | Manejo de errores semánticos.                   |
 
 
+# Referencias.
 
-
+ Terence Parr. ANother Tool for Language Recognition     | 
+ ------------------------ | ---------------------------- |
+                          | https://www.antlr.org/       |
+------------------------- | ---------------------------- |
+Jaime Pavlich-Mariscal.  antlr4-tutorial                 | 
+------------------------ | ----------------------------- |
 
 
 
