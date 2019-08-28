@@ -2,8 +2,8 @@
 # Ingeniería en Sistemas Computacionales.
 
 # Caracterización de la asignatura
-En ésta asignatura se debe desarrollar el análisis semántico, la generación de código, la optimización y la generación del código objeto para obtener el funcionamiento de un compilador. También se busca proveer al estudinate de herramientas, conocimientos y habilidades necesarias para desarrollar un compilador con base a conocimientos previos de la asignatura Lenguajes y Autómatas I. La aportación de ésta asignatura es relevante en el ámbito del desarrollo de software de sistemas.  
-Es indispensable distinguir que la carrera de Ingeniería en Sistemas Computacionales se basa, no sólo en el desarrollo de software comercial y administrativo, sino también en el desarrollo de software científico y para el desarrollo tecnológico. 
+En ésta asignatura se debe desarrollar el análisis semántico, la generación de código, la optimización y la generación del código objeto para obtener el funcionamiento de un compilador. También se busca proveer al estudiante de herramientas, conocimientos y habilidades necesarias para desarrollar un compilador con base a conocimientos previos de la asignatura Lenguajes y Autómatas I. La aportación de ésta asignatura es reelevante en el ámbito del desarrollo de software de sistemas.  
+Es indispensable distinguir que la carrera de Ingeniería en Sistemas Computacionales se basa no sólo en el desarrollo de software comercial y administrativo, sino también en el desarrollo de software científico y para el desarrollo tecnológico. 
 
 Ésta asignatura se ubica en la segunda categoría y es indispensable desarrollar software en estos campos para preparar a los egresados y tengan la posibilidad de cursar posgrados de alto nivel.
 
