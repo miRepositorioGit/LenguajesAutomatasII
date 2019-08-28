@@ -39,17 +39,12 @@ Define, disena y programa las fases del analizador léxico y sintáctico de un t
 | --------------------- | -----------------------|
 | Análisis semántico.   | Árboles de expresiones.|
 |                       | Acciones semánticas de un analizdor sintáctico. |
-
-
-
-| Análisis semántico. | Árboles de expresiones.                         |
-|                     | Acciones semánticas de un analizdor sintáctico. |
-|                     | Comprobaciones de tipos en expresiones.         |
-|                     | Pila semántica en un analizador sintáctico.     |
-|                     | Esquema de traducción.                          | 
-|                     | Generación de la tabla de símbolo               | 
-|                     | y tabla de direcciones.                         |
-|                     | Manejo de errores semánticos.                   |
+|                       | Comprobaciones de tipos en expresiones.         |
+|                       | Pila semántica en un analizador sintáctico.     |
+|                       | Esquema de traducción.                          | 
+|                       | Generación de la tabla de símbolo               | 
+|                       | y tabla de direcciones.                         |
+|                       | Manejo de errores semánticos.                   |
 
 
 
