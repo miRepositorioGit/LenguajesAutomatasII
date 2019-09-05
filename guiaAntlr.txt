@@ -26,7 +26,7 @@ Seguir las siguientes etapas [2]:
 
   Etapa 			Descripción
  
-  11=UNO=11		    parser generator 		
+  11=UNO=11		    lexer generator 		
  
  >antlr fileGrammar.g4						// short
  >java org.antlr.v4.Tool fileGrammar.g4     // canonical
@@ -48,7 +48,7 @@ Seguir las siguientes etapas [2]:
 44=CUATRO=44		run grammar to obtain parse tree ar id: r
  >grun fileGrammar r -gui
  hello part
- ctrl z
+ ctrl z		
  
  
  r

@@ -1,0 +1,37 @@
+guia para obtener y utilizar las clases derivadas de ANTLR.
+
+			
+			
+Se tiene los archivos de:
+		grammarFile.g4 // contiene la gramática regular
+		text.txt       // contiene datos de entrada
+		
+			11==UNO==11 	lexer,Parser,Listener generator
+			
+Ejecutar los comandos antlr y javac  para generar Lexer 
+	-Abrir una línea de comandos en la carpeta de trabajo
+	-Ejecutar:
+	
+	>antlr grammarProtoCalc.g4   # generates code in the current directory
+
+
+			22==DOS==22    compilación de archivos java
+			
+	>javac grammarProtoCalc*.java
+	
+			33==TRES==33 		run grammar to obtain stream tokens at id: start
+			
+	>grun grammarProtoCalc start sampleProtoCalc.txt
+	>grun grammarProtoCalc start sampleProtoCalc.txt -tokens // stream tokens			
+	>grun grammarProtoCalc start sampleProtoCalc.txt -gui    // tree 
+	ctrl z												 	 // secuencia EOF
+	
+			44==CUATRO==44	Generación de la clase visitor
+			
+	>antlr grammarProtoCalc.g4 -visitor
+	
+	
+			55==CINCO==55	generación de la clase principal.
+	
+			
+			
