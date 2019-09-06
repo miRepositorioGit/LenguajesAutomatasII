@@ -1,0 +1,49 @@
+GlosarioTerminosPrimerSeguimiento.txt
+
+Glosario de términos primer seguimiento.
+
+
+Proceso de interpretación de lenguaje
+AnTLR
+antlr fileNameGrammar.g4
+grun fileNameGrammar.g4 fileInputName.txt
+
+IDE.
+Compilador.
+Pre procesador.
+Macro instrucciones.
+Intérprete.
+Código fuente.
+Código objeto.
+Lenguaje ensamblador.
+Código maquina.
+
+Análisis léxico.
+Código fuente.
+Proceso de interpretación de un lenguaje.
+nombreArchivo.g4
+
+Tokens.
+nombreArchivoLenguaje.txt
+Gramática regular.
+starkRuleName/simboloInicialGramatica.
+
+Producción.
+Flujo de tokens.
+Tokens específicos.
+Tokens generales.
+Estructura del fileName.g4.
+Gramática libre de contexto.
+Elemento No_terminal.
+Elemento terminal.
+Lexema.
+Gramática de atributos.
+Producción
+Sentencia.
+Tabla de símbolos.
+Gramática regular.
+Gramática libre de contexto.
+Gramática de atributos.
+Léxico.
+Sintaxis.
+Semántica.
