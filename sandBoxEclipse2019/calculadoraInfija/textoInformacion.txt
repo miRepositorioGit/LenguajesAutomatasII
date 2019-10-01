@@ -1,0 +1,30 @@
+	Información de la interpretación de una expresión aritmética en notación INFIJA.
+	
+		Una notación INFIJA los operadores se escriben entre el operador, para una expresión 
+	de primer grado, esto es expresado de la siguente forma:
+		Evaluar:         
+1023 + 1023 = 2046
+|     |    |      |       |----  resultado.
+|     |    |      |---------- símbolo de asignación.		                                        
+|     |    | -------------- segundo operando.      
+|     |------------------ operador aritmético.
+|---------------------- primer operador.
+
+	La entrada de digitos enteros sin signo para alimentar al algoritmo de interpretación INFIJA, 
+	según [1], es de la siguiente manera:
+	
+							[ 0 ]c
+	 						[ 0 ]1
+							[ 1 ]0
+							[ 10 ]2
+							[ 102 ]3
+							[ 1023 ]+ 
+							[ 0 ]1
+							[ 1 ]0
+							[ 10 ]2
+							[ 102 ]3
+							[ 1023 ]=
+							[ 2046 ]
+		
+		Evaluar la expresión:  4096 - 2018
+								 								
