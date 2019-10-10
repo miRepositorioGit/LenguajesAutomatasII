@@ -1,0 +1,96 @@
+	Información de como traducir una expresión matemática en  notación infija a notación postfija.
+	
+	Evalua una expresión matemática aritmética, trigonométrica y redondeo expresada en notación
+	INFIJA a una notación POSTFIJA, se evalúa y presenta su resultado empleando una interfaz
+	desarrollada en java.applet.   
+	
+	Evalua una expresión matemática con una longitud de hasta, sizeExpresion = 6, caracteres.
+	
+	En este texto se muestra una forma de programar un evaluador de expresiones matemáticas en JAVA.
+	El evaluador consta de dos módulos.  
+	
+	El primer módulo se encarga de revisar la sintaxis en notación infija y convertirla en una 
+	expresión matemática postfija; el segundo módulo evalúa linealmente la expresión matemática 
+	en un valor Real para x .
+	
+	Para evaluar la expresión infija en un valor específico para x se deben seguir las reglas:
+	
+	1.  El operador de potencia tiene la más alta prioridad.
+	2.  Los operadores multiplicación y división tiene prioridad sobre los operadores suma, resta.
+	3.  Si se presenta un paréntesis, se deben de ejecutar las operaciones dentro de éste.
+	Si hay un paréntesis dentro de otro tiene prioridad el paréntesis interno.
+	
+	Para una notación postfija se evalua de izquierda a derecha, por ejemplo:
+	Al evaluar la expresión matemática:  4+x^3, evaluada x=2, esta se escribe como [1] :
+	NOTACIÓN		EXPRESIÓN
+	Infija					 4 + x^3  Se sustituye x=2 se eleva al cubo y se suma la magnitud 4
+	postfija				4 x 3 ^+ Se sustituye x=2, se almacena en la pila el 4, 2, 3 y las operaciones se irán 
+							evaluando conforma aparezcan.
+	Es decir, se evalua la potencia recuperando los dos últimos números de la pila y se sustituyen en la
+	pila	el resultado, por último se ejecuta la suma entre los últimos digitos almacenados en la pila y 
+	la suma se almacena en la pila.	
+	
+	TRADUCCIÓN A NOTACIÓN POSTFIJA.
+	
+	Para la traducción de una expresión dada en infija a notación postfija se utilizarán DOS pilas
+(PilaNumeros, PilaOperadores) instancias de la clase Stack<String> incluida dentro del paquete
+java.util.  Permiten adminsitrar con los métodos push, pop y peek manejo de objetos tipo String 
+además permite concatenar y manejar expresiones que no son números, .
+
+Es necesario manejar la priorodad de las operaciones y el uso de los paréntesis, para evaluar una 
+expresión matemática se deben seguir las siguientes reglas:
+
+1/4  Se evalúan el operador potencia. Y se le asigna una prioridad nivel CERO.
+2/4  Se evalúna los operadores de: multiplicación, división y el módulo (el resro de la división entera).
+Se le asigna una prioridad nivel UNO.
+3/4  Se evalúan los operadores de: suma y resta. Se le asigna una prioridad nivel DOS.
+4/4  Si hay paréntesis, se evalúa la expresión que está dentro del paréntesis interno. Se le asigna una 
+prioridad nivel TRES.
+
+Se informa que todas las funciones trigonometricas y otras que reciben un argumento se manejan 
+como un paréntesis que abre "(", el usuario debe digitarlas con ese paréntesis, es decir, "sen(", debido 
+a que cuando se digita el paréntesis que cierra ")" el segundo módulo evalua el contenido de la pila
+hasta encontrar el paréntesis de apertura de la función [1].  En el texto [1] apartado 5 y 6, se muetran
+notables ejemplos de como operan una expresión dotadas con funciones con "(" ... ")". 
+
+La clase Stack permite administrar la introducción, salida, "ojeada"  y encuestar si existen objetos en
+el interior de las pilas.  De la clase Stack se tiene que la administra una pila de tipo LIFO (last-in-first-out):
+
+					Nombre 						descripción
+					namePila.push()    		introduce ítem dentro del stack.        
+					namePila. pop()				remueva ítem  del stack.
+					namePila.peek()			Mira el tope de la pila.
+					namePila.empty()         Preguneta si la pila está vacía.
+					
+La clase Parseador, define a ultimaParseada como una variable privada de tipo String para almacenar 
+la última expresión traducida en notación postfija. El constructor de la clase Parseador inicializa a ésta
+ variable privada en cero.  
+ 
+ La función parsear recibe una expresión en notación infija y devuelve la expresión en notación postfija. 				
+La función lanza una excepción del tipo SintaxException Error, si encuentra un error de escritura en 
+la expresion.  Ésta función necesita las pilas: PilaNumeros y PilaOperadores.
+
+La variable tipo String fragmento almacena un operador, operando, una función que se esté utilizando
+en el momento [1].
+
+La variable entera pos marca la posición tiene marca la posición del caracter que se está 
+procesando acualmente en el String [1].  Mientras que la variable definida como entero  tamano 
+define el tamano del texto que se procesa en ese momento.   La variable final String parentesis 
+contiene todas las expresiones que funcionarán como paréntesis de apertura, por ejemplo: ln, abs, sen.
+
+La variable final String operadoresBinarios lista los operadores  binarios: + - * / ^ %.
+
+La variable String unspacedString resguarda  la expresión SIN espacios de la expresión.
+La variable String expr  resguarda la expresión SIN mayúculas.
+     
+ 
+
+	
+fuente:
+[1]  Borbón Alpízar A.  ¿Cómo evaluar expresiones matemáticas en el computador?
+Escuela de Matemática, Instituto Tecnológico de Costa Rica. Disponible en:
+https://tecdigital.tec.ac.cr/revistamatematica/ContribucionesV7_n2_2006/Parseador/index.html
+
+	
+
+								 								
