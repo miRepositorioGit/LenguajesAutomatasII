@@ -1,0 +1,13 @@
+ProcesadorZ80
+1.Introducción
+2.Descripción general.
+3.Arquitectura del procesador.
+4.Tipos y cantidad de registros.
+5.Recursos periféricos.
+6.Tipos de instrucciones,longitud,formatos.
+7.Arquitectura de códigos de operación.
+8.Ciclos de operación.
+9.Estructura de un programa en lenguaje ensamblador.
+10.Repertorio de instrucciones en lenguaje ensamblador, directivas.
+11. Aplicaciones del procesador Z80.
+12.Ejemplos de programas en ensamblador.
