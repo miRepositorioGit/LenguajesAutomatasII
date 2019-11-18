@@ -1,0 +1,5 @@
+program
+LD a,1 ;
+LD b,9 ;  
+ADD a,b ;
+prn a ;
