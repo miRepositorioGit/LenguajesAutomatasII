@@ -50,30 +50,19 @@ Define, disena y programa las fases del analizador léxico y sintáctico de un t
 # Referencias.
 
 
- |                             |                              | 
- |---------------------------- | ---------------------------- |
- | [1] Terence Parr.           | ANother Tool for Language Recognition |
- |                             | https://www.antlr.org/       |
- | [2] Jaime Pavlich-Mariscal. | antlr4-tutorial              |
- |                             |https://github.com/jpavlich/antlr4-tutorial |
- |                             |                              |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [1] Tecnológico Nacional de México. 
 Secretaría Académica, de Investigación e Innovación.
 Dirección de Docencia e Innovación Educativa. 
 Lenguajes y autómatas II. SCD-1016 SATCA 2-3-5
 Ingeniería en Sistemas Computacionales.
 SATCA Sistema de Asignación y Trnasferencia de Créditos Académicos.
+https://github.com/miRepositorioGit/LenguajesAutomatasII/blob/master/Pdf/LenguajesAutomatas_II_ContenidosAsignatura.pdf
+
+ |                             |                              | 
+ |---------------------------- | ---------------------------- |
+ | [2] Terence Parr.           | ANother Tool for Language Recognition |
+ |                             | https://www.antlr.org/       |
+ | [3] Jaime Pavlich-Mariscal. | antlr4-tutorial              |
+ |                             |https://github.com/jpavlich/antlr4-tutorial |
+ |                             |                              |
+
